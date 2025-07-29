@@ -82,7 +82,7 @@ print(paste("Loaded", nrow(data_df), "audio files."))
 
 # Set parameters for feature extraction
 N_MFCC <- 13
-MAX_PAD_LEN <- 250
+MAX_PAD_LEN <- 174
 
 extract_features <- function(file_path) {
   tryCatch({
