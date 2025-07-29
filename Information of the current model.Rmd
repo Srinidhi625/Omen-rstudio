@@ -1,0 +1,49 @@
+---
+title: "Results of Current Model"
+author: "Srinidhi Sridhar"
+date: "2025-07-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Healthy Sick None
+   Healthy     240   72  105
+   Sick         83  296   37
+   None         58   30  279
+
+Overall Statistics
+                                          
+               Accuracy : 0.6792          
+                 95% CI : (0.6519, 0.7055)
+    No Information Rate : 0.3508          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.5193          
+                                          
+ Mcnemar's Test P-Value : 0.001763        
+
+Statistics by Class:
+
+                     Class: Healthy Class: Sick Class: None
+Sensitivity                  0.6299      0.7437      0.6627
+Specificity                  0.7839      0.8504      0.8870
+Pos Pred Value               0.5755      0.7115      0.7602
+Neg Pred Value               0.8199      0.8699      0.8295
+Prevalence                   0.3175      0.3317      0.3508
+Detection Rate               0.2000      0.2467      0.2325
+Detection Prevalence         0.3475      0.3467      0.3058
+Balanced Accuracy            0.7069      0.7970      0.7749
+[1] "Saving model and artifacts..."
+[1] "Model artifacts saved to poultry_model_artifacts.rds"
+
+###
+
+
+
