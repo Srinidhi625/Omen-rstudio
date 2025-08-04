@@ -99,8 +99,8 @@ combined_df <- rbind(train_df, test_df)
 #
 
 # Set parameters for feature extraction
-N_MFCC <- 23
-MAX_PAD_LEN <- 200
+N_MFCC <- 30
+MAX_PAD_LEN <- 300
 extract_features <- function(file_path) {
   tryCatch({
     wave <- tuneR::readWave(file_path)

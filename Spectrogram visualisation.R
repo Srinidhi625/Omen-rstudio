@@ -30,7 +30,7 @@ library(seewave)
 # subfolders.
 #
 
-DATA_PATH <- "C:/Users/srini/OneDrive/Poultry/SmartEars A Practical Framework for Poultry Respiratory Monitoring via Spectrogram-Based Audio Classification and AI-Assisted Labeling"
+DATA_PATH <- 'C:/Users/srini/OneDrive/Desktop/R/Omen-rstudio/SmartEars A Practical Framework for Poultry Respiratory Monitoring via Spectrogram-Based Audio Classification and AI-Assisted Labeling'
 
 # Check if the data directory exists
 if (!dir.exists(DATA_PATH)) {
